@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import 'reset.css';
+@import "public.css";
+.body {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  padding: 65px 0 0px 178px;
+  background-color: #fff;
+  color: #333333;
+  min-height: 250px;
+}
+.body input {
+  outline: none;
+}
+.body form {
+  padding-right: 200px;
+  border-right: 1px solid #dddddd;
+}
+.body form div {
+  position: relative;
+  margin-bottom: 15px;
+}
+.body form div > b {
+  display: inline-block;
+  min-width: 70px;
+  text-align: right;
+  font-size: 14px;
+}
+.body form div input {
+  width: 260px;
+  height: 38px;
+  border: 1px solid #dddddd;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+.body form div button {
+  float: right;
+  width: 260px;
+  height: 38px;
+  background-color: #ff4a00;
+  color: #fff;
+  font-weight: bold;
+}
+.body form div em {
+  color: #888888;
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  line-height: 36px;
+}
+.body form div :nth-child(5),
+.body form div :nth-child(4) {
+  position: relative;
+}
+.body form div .dx,
+.body form div .yzm {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  font-size: 14px;
+}
+.body form div:last-of-type {
+  float: right;
+  margin-right: 20px;
+}
+.body form div:last-of-type b {
+  font-size: 12px;
+  color: #666666;
+}
+.body form div:last-of-type span {
+  font-size: 12px;
+  color: #666666;
+}
+.body form div:last-of-type span a {
+  font-size: 12px;
+  line-height: 42px;
+  color: #333333;
+}
+.body form div:last-of-type span a:hover {
+  color: #ff4a00;
+  text-decoration: underline;
+}
+.body .r {
+  padding-left: 100px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #333333;
+}
+.body .r dl {
+  margin-bottom: 20px;
+}
+.body .r dl dt {
+  margin-bottom: 5px;
+}
+.body .r dl img {
+  margin-right: 20px;
+}

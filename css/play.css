@@ -1,0 +1,114 @@
+@charset "utf-8";
+@import 'reset.css';
+@import "public.css";
+.body {
+  background: #292929;
+  width: 100%;
+  height: 540px;
+}
+.box {
+  height: 540px;
+}
+.top {
+  height: 42px;
+}
+.top h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 42px;
+  color: white;
+}
+.top a {
+  color: #cccc;
+  line-height: 42px;
+}
+section {
+  display: flex;
+  height: 456px;
+}
+section .left1 {
+  position: relative;
+  flex-grow: 1;
+}
+section .left1 video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+section .left1 .active {
+  display: block;
+}
+section .right1 .top {
+  width: 390px;
+  height: 40px;
+  background: #3f3f3f;
+}
+section .right1 .top h2 {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  line-height: 37px;
+  background: #323232;
+}
+section .right1 .top .menu::-webkit-scrollbar {
+  width: 10px;
+}
+section .right1 .top .menu::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #626262;
+}
+section .right1 .top .menu {
+  width: 100%;
+  height: 415px;
+  overflow: auto;
+}
+section .right1 .top .menu li {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #373737;
+  padding: 10px 12px 10px 16px  ;
+  box-sizing: border-box;
+}
+section .right1 .top .menu li .num {
+  font-size: 14px;
+  color: #999999;
+}
+section .right1 .top .menu li .title {
+  width: 170px;
+  font-size: 14px;
+  color: #999999;
+  margin-left: 10px;
+}
+section .right1 .top .menu li .title span {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  color: white;
+  background: #18b160;
+  font-size: 12px;
+  border-radius: 4px;
+}
+section .right1 .top .menu li:first-child {
+  height: 40px;
+  color: #999999;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 38px;
+  box-sizing: border-box;
+  line-height: 5px;
+}
+.bottom {
+  height: 40px;
+  line-height: 40px;
+}
+.bottom a {
+  color: #999999;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 18px ;
+}
+.bottom a img {
+  margin-top: 12px;
+}

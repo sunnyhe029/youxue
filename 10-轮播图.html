@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    div{
+        width: 100%;
+        height:400px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+    div ul{
+        width: 8070px;
+        position: absolute;
+        list-style: none;
+        overflow: hidden;
+    
+    }
+    div ul li{
+        float: left;
+    }
+    img{
+        width: 1349px;
+        vertical-align: middle;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <!-- banner轮播图 -->
+    <div class="banner">
+        <ul class="banul">
+            <!-- <li><img src="./img/banner-1.jpg" alt=""></li>
+            <li><img src="./img/banner-2.jpg" alt=""></li>
+            <li><img src="./img/banner-3.jpg" alt=""></li>
+            <li><img src="./img/banner-4.jpg" alt=""></li>
+            <li><img src="./img/banner-5.jpg" alt=""></li>
+            <li><img src="./img/banner-6.jpg" alt=""></li> -->
+        </ul>
+    </div>
+    <script src="./ujjiuye.js"></script>
+    <script>
+        var bannerBox=document.getElementsByClassName('banner')[0]
+        var oul=document.getElementsByClassName('banul')[0]
+        
+        U.ajax('get','./03-banner.json','name=张三',function(res){
+            // 取出banner图
+          var  banner= JSON.parse(res).banner
+        //   给ul设置宽
+         var banWidth= parseInt(U.getStyle(bannerBox,'width'))
+         oul.style.width=(banWidth*banner.length)+'px'
+
+        //  渲染
+        var str=''
+        for(var i=0;i<banner.length;i++){
+            str+='<li><img src='+banner[i]+' alt=""></li>'
+        }
+        oul.innerHTML=str
+        // 获取li
+        var  oli=document.getElementsByTagName('li')
+        console.log(oli,'123456')
+        // 获取li的宽
+        var  oliw=parseInt(U.getStyle(oli[0],'width'))
+        // 克隆第一张图放到ul的最后
+        var fistli=oli[0].cloneNode(true)
+        oul.appendChild(fistli)
+        var n=0
+        setInterval(function(){
+            n++
+            if(n>=oli.length){
+                n=0
+            }
+            U.buffermove(oul,{'left':-n*oliw})
+        },2000)
+
+
+        })
+
+
+
+
+
+    </script>
+</body>
+
+</html>

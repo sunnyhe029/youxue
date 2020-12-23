@@ -1,0 +1,116 @@
+{
+    "mianfei": [
+        {
+            "mfarr": [
+                {
+                    "img": "./images/web-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 9
+                },
+                {
+                    "img": "./images/sheji-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 8
+                },
+                {
+                    "img": "./images/qiuzhi-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 5
+                },
+                {
+                    "img": "./images/office-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 10
+                }
+            ]
+        },
+        {
+            "mfarr": [
+                {
+                    "img": "./images/sheji-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 9
+                },
+                {
+                    "img": "./images/sheji-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 8
+                },
+                {
+                    "img": "./images/qiuzhi-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 5
+                },
+                {
+                    "img": "./images/office-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 10
+                }
+            ]
+        },
+        {
+            "mfarr": [
+                {
+                    "img": "./images/qiuzhi-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 9
+                },
+                {
+                    "img": "./images/sheji-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 8
+                },
+                {
+                    "img": "./images/qiuzhi-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 5
+                },
+                {
+                    "img": "./images/office-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 10
+                }
+            ]
+        },
+        {
+            "mfarr": [
+                {
+                    "img": "./images/office-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 9
+                },
+                {
+                    "img": "./images/sheji-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 8
+                },
+                {
+                    "img": "./images/qiuzhi-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 5
+                },
+                {
+                    "img": "./images/office-1.jpg",
+                    "jieshi": "【系统】 Web大前端在线就业班",
+                    "price": 0.00,
+                    "keshi": 10
+                }
+            ]
+        }
+    ]
+}
